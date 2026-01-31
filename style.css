@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 8%;
+    background-color: #0F1E17;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    border: solid 1px #F1F5E8;
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    background-color: #1F2F27;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 10px 0;
+    color: #F1F5E8;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin:1px 0 50px 0;
+    color: gray;
+}
+
+#perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 10% 10%;
+    border: solid 3px #F1F5E8;
+    margin: -40px 0px 0px 0px;
+    
+}
+#redes_botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    
+}
+
+.but{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0F1E17;
+    list-style: none;
+}
+
+.icon{
+    width: 25px;    
+    height: 25px;
+}
+
+
+a{
+    display: flex;
+    align-items: center;
+    background-color: #F1F5E8;
+    width: 300px;
+    height: 45px;
+    padding: 0 20px 0px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    gap: 12px;
+}
+
+span{
+    flex: 1;
+    font-size: 18px;
+    text-align: center;
+}
